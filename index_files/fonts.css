@@ -1,8 +1,0 @@
-@font-face {font-family: "Turista Gorda NF W01 Regular";
-  src: url("3cfe6d7e2919d98e0c6994d3dfbeda2c.eot"); /* IE9*/
-  src: url("3cfe6d7e2919d98e0c6994d3dfbeda2c.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("3cfe6d7e2919d98e0c6994d3dfbeda2c.woff2") format("woff2"), /* chrome、firefox */
-  url("3cfe6d7e2919d98e0c6994d3dfbeda2c.woff") format("woff"), /* chrome、firefox */
-  url("3cfe6d7e2919d98e0c6994d3dfbeda2c.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("3cfe6d7e2919d98e0c6994d3dfbeda2c.svg#Turista Gorda NF W01 Regular") format("svg"); /* iOS 4.1- */
-}
