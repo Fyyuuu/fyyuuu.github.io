@@ -1,0 +1,429 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
+body{
+    font-family:"Turista Gorda NF W01 Regular" !important;
+    background-color: #000;
+    color: #db4235;
+    text-align: center;
+}
+h1{
+    margin-bottom: 0px;
+}
+h2{
+    margin-bottom: 15px;
+}
+a{
+    color: #db4235;
+    text-decoration: none;
+    transition:  color 0.3s
+}
+#preloader, #preloaderInner{
+    position:  fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 9;
+    background-color: black;
+}
+.fancybox-bg{
+    background: #000000!important;
+}
+.owl-carousel.owl-drag .owl-item{
+    position:  relative;
+}
+.owl-carousel .owl-item img.packshot{
+     position:  relative;
+     z-index: 1;   
+}
+#preloaderInner{
+    background-image: url('../gfx/preloader.gif');
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a:hover{
+    color: #fff;
+}
+header{
+}
+h1{
+    padding-top: 30px;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.packshot{
+    width: 90%;
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.item p{
+    width: 90%;
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 16px;
+    line-height: 120%;
+}
+#sectionHolder{
+    flex: 1;
+     display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.carouselControls{
+    padding-bottom: 10px;
+    display: none;
+}
+.carouselControls a{
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 13px;
+    padding: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.owl-nav{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    font-size: 100px;
+    display: block;
+    pointer-events:none;
+    margin-top: -50px;
+}
+.owl-nav button{
+    pointer-events:initial;
+    transition:  all 0.3s;
+}
+footer{
+    font-size: 9px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 140%;
+}
+.owl-prev{
+    float: left;
+}
+.owl-next{
+    float: right;
+}
+#section1{
+    width: 90%;
+    text-align: center;
+}
+.owl-carousel .owl-stage{
+    min-height: 300px;
+}
+.button{
+    background-color: #db4235;
+    color: #000;
+    border: 2px solid #db4235;
+    display: inline-block;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s;
+    font-size: 14px;
+    line-height: 110%;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.button:hover{
+    background-color: #000;
+    color: #db4235;
+}
+nav.socials{
+    padding-top: 8px;
+    margin-bottom: 15px;
+}
+nav.socials a{
+    font-size: 20px;
+}
+
+
+.umggr-evidon-cookie-choices-footer-container, .item p{
+    transition:  all 0.3s;   
+}
+
+body.colour8,
+body.colour8 a,
+body.colour8 .button:hover{
+    color: #f3dd78;
+}
+body.colour8 .button{
+    background-color: #f3dd78;
+    border: 2px solid #f3dd78;
+    color: black;
+}
+body.colour8 .button:hover{
+    color: #f3dd78;
+    background: black;
+}
+
+body.colour1,
+body.colour1 a,
+body.colour1 .button:hover{
+    color: #f3dd78;
+}
+body.colour1 .button{
+    background-color: #f3dd78;
+    border: 2px solid #f3dd78;
+    color: black;
+}
+body.colour1 .button:hover{
+    color: #f3dd78;
+    background: black;
+}
+
+
+body.colour2,
+body.colour2 a,
+body.colour2 .button:hover{
+    color: #f05c6e;
+}
+body.colour2 .button{
+    background-color: #f05c6e;
+    border: 2px solid #f05c6e;
+    color: #f05c6e;
+    color: black;
+}
+body.colour2 .button:hover{
+    color: #f05c6e;
+    background: black;
+}
+
+body.colour3,
+body.colour3 a,
+body.colour3 .button:hover{
+    color: #9dcb9a;
+}
+body.colour3 .button{
+    background-color: #9dcb9a;
+    border: 2px solid #9dcb9a;
+    color: black;
+}
+
+body.colour3 .button:hover{
+    color: #9dcb9a;
+    background: black;
+}
+
+
+body.colour4,
+body.colour4 a{
+    color: #d48cae;
+}
+body.colour4 .button{
+    background-color: #d48cae;
+    border: 2px solid #d48cae;
+    color: black;
+}
+body.colour4 .button:hover{
+    color: #d48cae;
+    background: black;
+}
+
+body.colour5,
+body.colour5 a{
+    color: #ffffff;
+}
+body.colour5 .button{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    color: black;
+}
+body.colour5 .button:hover{
+    color: #ffffff;
+    background: black;
+}
+
+
+body.colour9,
+body.colour9 a{
+    color: #ffffff;
+}
+body.colour9 .button{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    color: black;
+}
+body.colour9 .button:hover{
+    color: #ffffff;
+    background: black;
+}
+
+body.colour6,
+body.colour6 a,
+body.colour6 .button:hover{
+    color: #f05c6e;
+}
+body.colour6 .button{
+    background-color: #f05c6e;
+    border: 2px solid #f05c6e;
+    color: #f05c6e;
+    color: black;
+}
+body.colour6 .button:hover{
+    color: #f05c6e;
+    background: black;
+}
+
+h1, h2{
+    transition:  all 0.3s;
+}
+
+#_evh-button{
+    display: none!important;
+}
+@supports (-webkit-touch-callout: none) {
+     #container{
+        min-height: -webkit-fill-available;
+    }
+}
+
+
+
+
+
+/* newsleter stuff */
+
+
+.ae-cform-modal-container hr, .ae-cform-container hr{
+    margin-bottom: 0px!important;
+    opacity: 0!important;
+}
+.modal a.close-modal{
+    display: none!important;
+}
+.ae-cform-social-link{
+    background-color: #f3dd78!important;
+    color: #000!important;
+    text-transform: uppercase;
+}
+.ae-cform-optin label {
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #f3dd78!important;
+}
+.ae-cform-title{
+    color: #f3dd78!important;
+}
+.ae-cform-item span, a.ae-cform-not-registered-link, a.ae-cform-forgot-password-link, .ae-cform-reset-password-instructions, a.ae-cform-reset-password-login-link, a.ae-cform-reset-password-register-link, a.ae-cform-already-registered-link, .ae-cform-optin-label, #terms, #terms a, #sms-terms, #sms-terms a, .ae-cform-mailing-list-success, .ae-cform-mailing-list-success-1{
+    color: #f3dd78!important;
+}
+.ae-cform-social-link i.socicon, .ae-cform-social-link i.mdi, .ae-cform-social-link i.fa, .ae-cform-social-link i.fab, .ae-cform-social-link i.fas{
+    background: transparent!important;
+    color: black!important;
+}
+.ae-cform-social-link{
+    width: 47%!important;
+}
+.ae-cform-title {
+    text-align: center;
+    font-size: 20px;
+    line-height: 120%;
+}
+.ae-cform-item label{
+    text-align: center!important;
+    padding-bottom: 5px!important;
+    font-size: 16px!important;
+}
+.ae-cform-item ul.parsley-errors-list li {
+    padding-top: 5px!important;
+    text-align: center!important;
+}
+
+.ae-cform-item input[type="text"], .ae-cform-item input[type="email"], .ae-cform-item input[type="password"], .ae-cform-item input[type="tel"]{
+    font-family: "Turista Gorda NF W01 Regular" !important;
+    text-align: center!important;
+    border: 0px!important!important;
+    border-radius: 2px!important;
+    text-transform: uppercase!important;
+    color: black!Important;
+    background-color: white!important;
+    border: 0px!Important;
+}
+.ae-cform-item .ae-cform-select select{
+    font-family: "Turista Gorda NF W01 Regular" !important;
+    text-align: center!important;
+    border: 0px!important;
+    border-radius: 2px!important;
+    height: 37px!important;
+    text-transform: uppercase!important;
+    color: black!Important;
+    background-color: white!important;
+}
+.ae-cform-item .ae-cform-select .select__arrow {
+    top: 16px!important;
+    right: 11px!important;
+    border-color: #000 transparent transparent transparent!important;
+}
+
+.iti--separate-dial-code .iti__selected-dial-code {
+    font-family: "Turista Gorda NF W01 Regular"!important;
+}
+#ae-cform-reg-item-country-1{
+    margin-bottom: 0px!important;
+}
+.ae-cform-item input[type="submit"], .ae-cform-item input[type="submit"]:hover{
+        text-transform: uppercase!Important;
+    color: black!Important;
+    text-shadow: none!Important;
+    width: 200px!Important;
+    margin: auto!Important;
+    display: block!Important;
+    border-radius: 2px!Important;
+    padding-top: 10px!Important;
+    padding-bottom: 10px!Important;
+    background: #f3dd78!Important;
+    border: 0px!Important;
+}
+.ae-optin-holder {
+    margin-bottom: 10px!important;
+}
+.iti--separate-dial-code .iti__selected-flag {
+    background-color: #fff!important;
+}
+.button{
+            width: 176px;
+        }
+        header nav.socials{
+            width: auto;
+            float: left;
+            margin-left: 10px;
+            padding-top: 11px;
+        }
+        header nav.main{
+            width: auto;
+            float: right;
+            display: inline-block;
+            margin-right: 10px;
+            padding-top: 10px;
+        }
+        header nav.outer{
+            clear: both;
+        }
+        header nav.outer h1 {
+            padding-top: 10px;
+            font-size: 50px;
+            padding-bottom: 10px;
+        }
