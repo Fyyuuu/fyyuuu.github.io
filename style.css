@@ -39,14 +39,14 @@ nav {
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    transition: color 0.5s;
+    transition: color 1s;
 }
 
 .menu a:hover{
     letter-spacing: 0.05cap;
     color: #ffd966;
     text-decoration: none;
-    transition: color 0.5s;
+    transition: color 1s;
 }
 
 footer {
@@ -90,6 +90,7 @@ footer p {
     border-width: 2px;
     margin-top: 20px;
     transition: background-color 1s;
+    transition: color 1s;
 }
 .rubrique a:hover {
     display: inline-block;
@@ -103,4 +104,5 @@ footer p {
     border-width: 2px;
     margin-top: 20px;
     transition: background-color 1s;
+    transition: color 1s;
 }
