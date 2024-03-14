@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Turista';
+    src: url(Turista\ Gorda\ NF\ W01\ Regular.woff);
+}
+
+body {
+    font-family:'Turista';
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+header {
+    letter-spacing: 0.05cap;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    letter-spacing: 0.05cap;
+    font-size: 36px;
+    color: #ffd966;
+    margin: 0;
+}
+
+nav {
+    letter-spacing: 0.05cap;
+    text-align: center;
+}
+
+.menu a{
+    letter-spacing: 0.05capp;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu a:hover{
+    letter-spacing: 0.05cap;
+    color: #ffd966;
+    text-decoration: none;
+}
+
+footer {
+    letter-spacing: 0.05cap;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+.rubrique {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.rubrique h2 {
+    letter-spacing: 0.05cap;
+    font-size: 2Zpx;
+    color: #000000;
+    margin-top: 0;
+}
+.rubrique p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000;
+    margin-top: 10px;
+}
+.rubrique a {
+    font-weight: 10;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd966;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.rubrique a:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffd966;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
