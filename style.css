@@ -25,7 +25,7 @@ header {
 header h1 {
     letter-spacing: 0.05cap;
     font-size: 36px;
-    color: #ffd966;
+    color: #D0E0F0;
     margin: 0;
 }
 
@@ -44,7 +44,7 @@ nav {
 
 .menu a:hover{
     letter-spacing: 0.05cap;
-    color: #ffd966;
+    color: #D0E0F0;
     text-decoration: none;
     transition: color 1s;
 }
@@ -81,11 +81,11 @@ footer p {
     font-weight: 10;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ffd966;
+    background-color: #D0E0F0;
     color: #000000;
     text-decoration: none;
     border-radius: 4px;
-    border-color: #ffd966;
+    border-color: #D0E0F0;
     border-style: solid;
     border-width: 2px;
     margin-top: 20px;
@@ -95,10 +95,10 @@ footer p {
     display: inline-block;
     padding: 10px 20px;
     background-color: #000000;
-    color: #ffd966;
+    color: #D0E0F0;
     text-decoration: none;
     border-radius: 4px;
-    border-color: #ffd966;
+    border-color: #D0E0F0;
     border-style: solid;
     border-width: 2px;
     margin-top: 20px;
